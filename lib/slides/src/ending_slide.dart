@@ -64,7 +64,7 @@ class _EndingSlideContentState extends State<_EndingSlideContent> {
                   child: AnimatedTextKit(
                     animatedTexts: [
                       TypewriterAnimatedText(
-                        '岡山でFlutterを盛り上げようぜ',
+                        'ご清聴ありがとうございました',
                         textStyle: textStyle1,
                         speed: const Duration(milliseconds: 100),
                       ),
@@ -91,7 +91,7 @@ class _EndingSlideContentState extends State<_EndingSlideContent> {
                     child: AnimatedTextKit(
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          'って話',
+                          'よわよわエンジニアでした',
                           textStyle: textStyle2,
                           speed: const Duration(milliseconds: 100),
                         ),

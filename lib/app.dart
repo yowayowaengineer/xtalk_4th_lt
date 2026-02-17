@@ -79,7 +79,7 @@ class _AnimatedFooterWidgetState extends State<_AnimatedFooterWidget>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(minutes: 20),
+      duration: const Duration(minutes: 5),
       vsync: this,
     )..repeat();
 
@@ -127,7 +127,7 @@ class _AnimatedFooterWidgetState extends State<_AnimatedFooterWidget>
           children: [
             Center(
               child: Image.asset(
-                'assets/images/logo_512x512.png',
+                'assets/images/people.png',
                 width: 40,
                 height: 40,
                 fit: BoxFit.contain,

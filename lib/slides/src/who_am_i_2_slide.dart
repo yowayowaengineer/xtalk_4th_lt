@@ -1,4 +1,5 @@
 import 'dart:html' as html if (dart.library.html) 'dart:html';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_deck/flutter_deck.dart';
@@ -7,15 +8,15 @@ import 'package:url_launcher/url_launcher.dart';
 
 class WhoAmISlide2 extends FlutterDeckSlideWidget {
   const WhoAmISlide2({super.key})
-      : super(
-          configuration: const FlutterDeckSlideConfiguration(
-            route: '/who-am-i-2',
-            title: '自己紹介②',
-            header: FlutterDeckHeaderConfiguration(
-              title: 'よわよわエンジニア is 誰 (所属的な話)',
-            ),
+    : super(
+        configuration: const FlutterDeckSlideConfiguration(
+          route: '/who-am-i-2',
+          title: '自己紹介②',
+          header: FlutterDeckHeaderConfiguration(
+            title: 'よわよわエンジニア is 誰 (所属的な話)',
           ),
-        );
+        ),
+      );
 
   @override
   FlutterDeckSlide build(BuildContext context) {
@@ -73,7 +74,7 @@ class _WhoAmISlide2Content extends StatelessWidget {
                     const SizedBox(width: 8),
                     const Expanded(
                       child: Text(
-                        'ピープルさんはFlutterアプリ開発の実績が多数ある',
+                        '最近、岡山でエンジニアコミュニティを立ち上げるらしいですよ！　興味ある方は声かけて！',
                         style: TextStyle(fontSize: 24),
                       ),
                     ),
